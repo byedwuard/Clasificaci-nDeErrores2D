@@ -1,1 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,l;
+    cout << "dame tu base:";
+    cin >> b;
+    cout << "dame tu altura:";
+    cin >> l;
+    a = b*l;
+    cout << "tu area es de :" << a << endl;
+    if (a <0){
+        cout << "tu area es negativa";
+    }
+    else if (a >0){
+        cout << "tu area es positiva";
+    }
+    else {
+        cout << "tu area es 0";
+    }
+
+    return 0;
+}
 
